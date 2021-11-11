@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npx http-server",
     "test": "jest"
   },
   "repository": {
@@ -20,6 +21,7 @@
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
     "babel-jest": "^27.0.6",
+    "http-server": "^14.0.0",
     "jest": "^27.0.6"
   }
 }
